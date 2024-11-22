@@ -72,7 +72,7 @@ header{
 /* finalizando header */
 
 .principal{
-    background: url(img/placa-solar.jpg);
+    background: url(./img/placa-solar.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;

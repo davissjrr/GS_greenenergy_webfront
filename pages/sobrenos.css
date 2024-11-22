@@ -75,7 +75,7 @@ header{
 /* finalizando header */
 
 .sobre{
-    background: url(img/wind-energy.jpg);
+    background: url(../img/wind-energy.jpg);
     height: 900px;
     background-size: cover;
     background-position: center;
