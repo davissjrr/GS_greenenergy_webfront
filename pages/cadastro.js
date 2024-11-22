@@ -20,5 +20,5 @@ cadastrar.addEventListener('click', () => {
     }
 
     alert(`Cadastro realizado com sucesso!\nUsuário: ${usuarioValor}`);
-    window.location.href = 'login.html'
+    window.location.href = '/login.html'
 });

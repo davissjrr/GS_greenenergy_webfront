@@ -8,7 +8,7 @@ login.addEventListener('click', () =>{
 
     if (usuarioValor === 'admin' && senhaValor === 'admin'){
         alert('Login efetuado com sucesso')
-        window.location.href = 'index.html'
+        window.location.href = '../index.html'
     }else{
         alert('Usuário ou senha incorretos')
     }
