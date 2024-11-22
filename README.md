@@ -14,8 +14,8 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Membros do Projeto
 Este projeto foi realizado por dois desenvolvedores dedicados:
-- **Davis Junior** 
-- **Witalon Rodrigues**
+- **Davis Junior - RM560723** 
+- **Witalon Rodrigues - RM559023**
 
 Juntos, conseguimos criar uma plataforma que visa levar soluções eficientes de energia para um público mais amplo.
 
