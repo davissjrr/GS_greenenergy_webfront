@@ -1,11 +1,16 @@
-const container = document.getElementById('container');
-const registerBtn = document.getElementById('register');
-const loginBtn = document.getElementById('login');
+const senha = document.querySelector('#senha')
+const usuario = document.querySelector('#usuario')
+const login = document.querySelector('.btn-logar')
 
-registerBtn.addEventListener('click', () => {
-    container.classList.add("active");
-});
+login.addEventListener('click', () =>{
+    const usuarioValor = usuario.value.trim();
+    const senhaValor = senha.value.trim();
 
-loginBtn.addEventListener('click', () => {
-    container.classList.remove("active");
-});
+    if (usuarioValor === 'admin' && senhaValor === 'admin'){
+        alert('Login efetuado com sucesso')
+        window.location.href = 'index.html'
+    }else{
+        alert('Usuário ou senha incorretos')
+    }
+    
+})

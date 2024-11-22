@@ -79,7 +79,15 @@ input::placeholder {
     font-weight: 700;
     color: white;
     border: 1px solid #000000;
+    cursor: pointer;
 }
+.btn-logar:hover{
+    background-color: white;
+    color: var(--cor-logo);
+    transform: scale(1.05);
+}
+
+
 
 .esqueceu{
     margin-top: 20px;
@@ -122,4 +130,8 @@ input::placeholder {
     font-weight: 700;
     padding: 26px 65px;
     background-color: #3B5504;
+}
+
+.btn-saiba:hover{
+    transform: scale(1.05);
 }
