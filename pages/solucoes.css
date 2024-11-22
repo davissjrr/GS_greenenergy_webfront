@@ -1,0 +1,248 @@
+:root{
+    --cor-texto: #FFFF;
+    --texto-2: #A79E9E;
+    --cor-logo: #8AC210;
+    --detalhes: #3B5504;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+/* configurando o header */
+header{
+    background-color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 10px 30px;
+}
+
+.logo-header {
+    align-self: center;
+    margin-left: 1.2rem;
+    font-size: 2.5rem;
+}
+
+
+.nav-header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+
+.nav-header li{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.nav-header a:hover {
+    color: var(--cor-logo);
+}
+
+.btn-login{
+    display: flex;
+    background-color: #8AC210;
+    padding: 8px 27px;
+    border-radius: 50px;
+    color: white !important;
+}
+/* finalizando header */
+
+.principal{
+    background: url(../img/placa-solar.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.textos-principal h1{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--cor-texto);
+    width: 1073px;
+}
+
+.textos-principal{
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--cor-texto);
+    width: 783px;
+}
+
+.solucoes{
+    font-family: var(--font-family);
+}
+
+.solucao{
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    margin-left: 196px;
+    gap: 100px;
+}
+
+.solucao span{
+    font-size: 96px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.solucao h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.texto-solucao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 339px;
+    gap: 16px;
+}
+
+.texto-solucao p {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    width: 700px;
+}
+
+.texto-solucao a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 48px;
+    color: rgb(0, 0, 0);
+
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 500;
+
+    height: 46px;
+    width: 161px;
+
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+/* começando cabeçalho */
+footer {
+    background-color: var(--cor-texto);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 200px;
+    max-height: 300px;
+    margin-top: 95px;
+    border-top: 2px solid #000000;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+}
+
+.logos-footer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.redes-sociais{
+    position: absolute;
+    margin-top: 300px;
+    display: flex;
+    gap: 12px;
+}
+
+.redes-sociais img{
+    height: 56px;
+    width: 56px;
+}
+.redes-sociais img:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.2); 
+}
+
+.contato{
+    margin-top: 50px;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 11px;
+}
+.contato h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.contato p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.redirecionar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+
+.redirecionar a{
+    text-decoration: none;
+    color: black;
+}
+
+.redirecionar a:hover {
+    color: var(--cor-logo);
+}
+/* finalizando cabeçalho */

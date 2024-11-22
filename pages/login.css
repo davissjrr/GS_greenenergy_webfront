@@ -1,0 +1,144 @@
+:root{
+    --cor-texto: #FFFF;
+    --texto-2: #A79E9E;
+    --cor-logo: #8AC210;
+    --detalhes: #3B5504;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: var(--font-family);
+}
+
+
+
+main{
+    display: flex;
+    gap: 160px;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 293px;
+    width: 55%;
+}
+
+.texto-login {
+    margin-top: 180px;
+    margin-left: 35px;
+}
+
+.texto-login h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--cor-logo)
+}
+
+.texto-login h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.botoes-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 135px;
+}
+
+.botoes-login input{
+    border-radius: 50px;
+    height: 80px;
+    margin-top: 32px;
+    border: 1px solid #000000;
+    padding: 25px 28px;
+    font-size: 24px;
+}
+input::placeholder {
+    color: var(--texto-2); 
+    font-size: 24px; 
+}
+
+.btn-logar{
+    margin-top: 70px;
+    border-radius: 50px;
+    background-color: #8AC210;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.btn-logar:hover{
+    background-color: white;
+    color: var(--cor-logo);
+    transform: scale(1.05);
+}
+
+.faça-cadastro{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--cor-logo);
+    text-decoration: none;
+    justify-content: center;
+}
+
+.esqueceu{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--texto-2);
+    justify-content: center;
+}
+
+.saiba-mais{
+    width: 45%;
+    background-color: #8AC210;
+}
+.texto-saiba{
+    display: flex;
+    flex-direction: column;
+    margin-top: 330px;
+    align-items: center;
+    color: white;
+
+}
+
+.texto-saiba h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.texto-saiba p{
+    margin-top: 17px;
+    font-size: 20px;
+
+}
+
+.texto-saiba a{
+    text-decoration: none;
+    color: white;
+    margin-top: 33px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 26px 65px;
+    background-color: #3B5504;
+}
+
+.btn-saiba:hover{
+    transform: scale(1.05);
+}
