@@ -87,7 +87,14 @@ input::placeholder {
     transform: scale(1.05);
 }
 
-
+.faça-cadastro{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--cor-logo);
+    text-decoration: none;
+    justify-content: center;
+}
 
 .esqueceu{
     margin-top: 20px;
